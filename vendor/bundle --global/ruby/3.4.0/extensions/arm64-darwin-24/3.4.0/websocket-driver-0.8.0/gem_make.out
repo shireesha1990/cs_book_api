@@ -1,0 +1,18 @@
+current directory: /Users/shireesha/homeprojects/cs_books_api/vendor/bundle --global/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/shireesha/homeprojects/cs_books_api/vendor/bundle --global/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251130-31582-gkb4fq sitelibdir\=./.gem.20251130-31582-gkb4fq clean
+
+current directory: /Users/shireesha/homeprojects/cs_books_api/vendor/bundle --global/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251130-31582-gkb4fq sitelibdir\=./.gem.20251130-31582-gkb4fq
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/shireesha/homeprojects/cs_books_api/vendor/bundle --global/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251130-31582-gkb4fq sitelibdir\=./.gem.20251130-31582-gkb4fq install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20251130-31582-gkb4fq
+
+current directory: /Users/shireesha/homeprojects/cs_books_api/vendor/bundle --global/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251130-31582-gkb4fq sitelibdir\=./.gem.20251130-31582-gkb4fq clean

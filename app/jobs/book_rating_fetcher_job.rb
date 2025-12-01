@@ -1,4 +1,4 @@
-class ApplicationJob < ActiveJob::Base
+class BookRatingFetcherJob < ApplicationJob
   # Automatically retry jobs that encountered a deadlock
   # retry_on ActiveRecord::Deadlocked
 
@@ -11,6 +11,8 @@ class ApplicationJob < ActiveJob::Base
     return unless book && book.isbn.present?
 
     book_data = GoogleBooksService.fetch_book_data_by_isbn(book.isbn)
+    puts book_data
+    puts "*******"
 
     if book_data && book_data[:average_rating].present?
       book.update(rating: book_data[:average_rating])

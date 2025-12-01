@@ -1,0 +1,19 @@
+current directory: /Users/shireesha/homeprojects/cs_books_api/vendor/bundle --global/ruby/3.4.0/gems/stringio-3.1.8/ext/stringio
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for rb_io_mode_t in ruby/io.h... no
+creating Makefile
+
+current directory: /Users/shireesha/homeprojects/cs_books_api/vendor/bundle --global/ruby/3.4.0/gems/stringio-3.1.8/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251130-31582-lvov73 sitelibdir\=./.gem.20251130-31582-lvov73 clean
+
+current directory: /Users/shireesha/homeprojects/cs_books_api/vendor/bundle --global/ruby/3.4.0/gems/stringio-3.1.8/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251130-31582-lvov73 sitelibdir\=./.gem.20251130-31582-lvov73
+compiling stringio.c
+linking shared-object stringio.bundle
+
+current directory: /Users/shireesha/homeprojects/cs_books_api/vendor/bundle --global/ruby/3.4.0/gems/stringio-3.1.8/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251130-31582-lvov73 sitelibdir\=./.gem.20251130-31582-lvov73 install
+/usr/bin/install -c -m 0755 stringio.bundle ./.gem.20251130-31582-lvov73
+
+current directory: /Users/shireesha/homeprojects/cs_books_api/vendor/bundle --global/ruby/3.4.0/gems/stringio-3.1.8/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251130-31582-lvov73 sitelibdir\=./.gem.20251130-31582-lvov73 clean

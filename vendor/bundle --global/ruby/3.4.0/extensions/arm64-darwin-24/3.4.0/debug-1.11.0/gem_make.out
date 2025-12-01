@@ -1,0 +1,19 @@
+current directory: /Users/shireesha/homeprojects/cs_books_api/vendor/bundle --global/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/shireesha/homeprojects/cs_books_api/vendor/bundle --global/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251130-31582-ymngz1 sitelibdir\=./.gem.20251130-31582-ymngz1 clean
+
+current directory: /Users/shireesha/homeprojects/cs_books_api/vendor/bundle --global/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251130-31582-ymngz1 sitelibdir\=./.gem.20251130-31582-ymngz1
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/shireesha/homeprojects/cs_books_api/vendor/bundle --global/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251130-31582-ymngz1 sitelibdir\=./.gem.20251130-31582-ymngz1 install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20251130-31582-ymngz1/debug
+
+current directory: /Users/shireesha/homeprojects/cs_books_api/vendor/bundle --global/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251130-31582-ymngz1 sitelibdir\=./.gem.20251130-31582-ymngz1 clean

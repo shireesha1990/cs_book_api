@@ -5,20 +5,20 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - 3.2.2
+* Rails -8.1
 
-* System dependencies
+Using Sidekiq Active Job for external google Books API to fetch ratings.
 
-* Configuration
+This API only repo using ruby on rails development
 
-* Database creation
+covers these concepts 
 
-* Database initialization
+->RESTful API Design: Clear endpoints for CRUD operations on resources.
+-> Database Management: Models, migrations, associations with PostgreSQL.
+->Validations: Model-level data integrity checks, including custom validations.
+-> Error Handling: Graceful responses for missing records, invalid input, and external API failures.
+-> Background Processing: Using ActiveJob for asynchronous tasks (fetching ratings).
+-> Configuration Management: Secure handling of API keys using Rails credentials.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

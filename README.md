@@ -9,9 +9,9 @@ Things you may want to cover:
 * Rails -8.1
 
 * To start this application
-  bundle install
-  bundle exec sidekiq
-  rails server
+  * bundle install
+  * bundle exec sidekiq
+  * rails server
 
 Using Sidekiq Active Job for external google Books API to fetch ratings.
 

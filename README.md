@@ -13,12 +13,11 @@ Using Sidekiq Active Job for external google Books API to fetch ratings.
 This API only repo using ruby on rails development
 
 covers these concepts 
-
--> RESTful API Design: Clear endpoints for CRUD operations on resources.
--> Database Management: Models, migrations, associations with PostgreSQL.
--> Validations: Model-level data integrity checks, including custom validations.
--> Error Handling: Graceful responses for missing records, invalid input, and external API failures.
--> Background Processing: Using ActiveJob for asynchronous tasks (fetching ratings).
--> Configuration Management: Secure handling of API keys using Rails credentials.
+* RESTful API Design: Clear endpoints for CRUD operations on resources.
+*  Database Management: Models, migrations, associations with PostgreSQL.
+*  Validations: Model-level data integrity checks, including custom validations.
+*  Error Handling: Graceful responses for missing records, invalid input, and external API failures.
+*   Background Processing: Using ActiveJob for asynchronous tasks (fetching ratings).
+*   Configuration Management: Secure handling of API keys using Rails credentials.
 
 

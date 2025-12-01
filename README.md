@@ -8,6 +8,11 @@ Things you may want to cover:
 * Ruby version - 3.2.2
 * Rails -8.1
 
+* To start this application
+  bundle install
+  bundle exec sidekiq
+  rails server
+
 Using Sidekiq Active Job for external google Books API to fetch ratings.
 
 This API only repo using ruby on rails development

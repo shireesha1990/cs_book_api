@@ -21,6 +21,6 @@ class Book < ApplicationRecord
   private
 
   def fetch_rating_from_google_books
-    BookRatingFetcherJob.perform_later(self.id)
+    BookRatingFetcherJob.perform_now(self.id)
   end
 end
